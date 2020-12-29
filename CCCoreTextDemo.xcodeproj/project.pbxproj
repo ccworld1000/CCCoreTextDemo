@@ -14,6 +14,7 @@
 		4238714F259B463400F1AE98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4238714E259B463400F1AE98 /* Assets.xcassets */; };
 		42387152259B463400F1AE98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42387150259B463400F1AE98 /* LaunchScreen.storyboard */; };
 		42387155259B463400F1AE98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42387154259B463400F1AE98 /* main.m */; };
+		42387160259B485000F1AE98 /* CCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4238715F259B485000F1AE98 /* CCView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		42387151259B463400F1AE98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42387153259B463400F1AE98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42387154259B463400F1AE98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4238715E259B485000F1AE98 /* CCView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCView.h; sourceTree = "<group>"; };
+		4238715F259B485000F1AE98 /* CCView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				42387143259B463300F1AE98 /* AppDelegate.m */,
 				42387145259B463300F1AE98 /* SceneDelegate.h */,
 				42387146259B463300F1AE98 /* SceneDelegate.m */,
+				4238715E259B485000F1AE98 /* CCView.h */,
+				4238715F259B485000F1AE98 /* CCView.m */,
 				42387148259B463300F1AE98 /* ViewController.h */,
 				42387149259B463300F1AE98 /* ViewController.m */,
 				4238714B259B463300F1AE98 /* Main.storyboard */,
@@ -102,7 +107,9 @@
 		42387137259B463300F1AE98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CC;
 				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "- now youhua deng (deng you hua | CC) <ccworld1000@gmail.com>";
 				TargetAttributes = {
 					4238713E259B463300F1AE98 = {
 						CreatedOnToolsVersion = 12.0.1;
@@ -149,6 +156,7 @@
 				42387144259B463300F1AE98 /* AppDelegate.m in Sources */,
 				42387155259B463400F1AE98 /* main.m in Sources */,
 				42387147259B463300F1AE98 /* SceneDelegate.m in Sources */,
+				42387160259B485000F1AE98 /* CCView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
